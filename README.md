@@ -29,10 +29,10 @@ Scandiweb Junior Developer test assignment
 
 ## Setup / Installation💻:
 
-1- Clone repository on your local machine.
-2- Install dependencies using _yarn install_ **or** _npm install_.
-3- Make sure that the server side is installed and running.
-4- Run the client side using _yarn start_ **or** _npm start_.
+1. Clone repository on your local machine.
+2. Install dependencies using _yarn install_ **or** _npm install_.
+3. Make sure that the server side is installed and running.
+4. Run the client side using _yarn start_ **or** _npm start_.
 
 ---
 
