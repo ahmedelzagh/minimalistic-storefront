@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  height: 8rem;
+  width: 100%;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+
+  .nav-categories {
+    display: inline;
+
+    a {
+      color: var(--black-clr);
+      font-weight: var(--fw-b);
+      display: inline-block;
+      margin-right: 3rem;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      &:hover {
+        color: var(--accent-clr);
+      }
+      &.active {
+        position: relative;
+        // width: max-content;
+        // max-width: 100%;
+        color: var(--accent-clr);
+        &::after {
+          content: "";
+          width: 100%;
+          justify-content: center;
+          height: 0.2rem;
+          background: var(--accent-clr);
+          left: 0;
+          bottom: 0;
+          top: 4.7rem;
+          position: absolute;
+        }
+      }
+    }
+  }
+
+  .logo {
+    width: 4.1rem;
+  }
+
+  .actions {
+
+    .currency {
+      width: 2.9rem;
+    }
+    .shop-cart {
+      margin-left: 2.2rem;
+      width: 2rem;
+      position: relative;
+      &::after {
+        content: attr(value);
+        font-size: 1.4rem;
+        justify-content: center;
+        display: flex;
+        font-family: var(--f-details);
+        font-weight: var(--fw-vb);
+        color: var(--white-clr);
+        background: var(--black-clr);
+        width: 20px;
+        height: 20px;
+        border-radius: 60px;
+        position: absolute;
+        left: 10px;
+        top: -20px;
+      }
+    }
+  }
+}

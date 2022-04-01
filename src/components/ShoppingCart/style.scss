@@ -1,0 +1,26 @@
+.shopping-cart-items {
+  display: grid;
+  grid-template-columns: auto;
+  .item {
+    padding: 5rem;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    .item-info {
+      .item-brand {
+        font-size: 3rem;
+        font-weight: var(--fw-b);
+        margin-bottom: 1.6rem;
+      }
+      .item-name {
+        font-size: 3rem;
+        font-weight: var(--fw-m);
+        margin-bottom: 4rem;
+      }
+      .cost {
+        font-weight: var(--fw-vb);
+        font-size: 2.4rem;
+      }
+    }
+  }
+}

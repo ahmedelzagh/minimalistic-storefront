@@ -1,0 +1,12 @@
+.category-page {
+  h2 {
+    text-transform: uppercase;
+    padding: 5rem 0;
+  }
+  ul {
+    display: grid;
+    justify-content: space-between;
+    gap: 10rem 5rem;
+    grid-template-columns: 40rem 40rem 40rem;
+  }
+}

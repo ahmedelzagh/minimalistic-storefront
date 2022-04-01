@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto+Condensed:wght@400;700&family=Source+Sans+Pro&display=swap");
+:root {
+  --ff: "Raleway", sans-serif;
+  --f-details: "Roboto Condensed", sans-serif;
+  --f-attr: "Source Sans Pro", sans-serif;
+
+  --fw-n: 300;
+  --fw-m: 400;
+  --fw-b: 600;
+  --fw-vb: 700;
+  --fw-price: 500;
+
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  --black-clr: #1d1f22;
+  --accent-clr: #5ece7b;
+  --white-clr: #ffffff;
+
+  --shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+  --br: 5px;
+
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--ff);
+  font-size: var(--normal-font-size);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+  background-color: var(--white-clr) !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: var(--fw-m);
+  color: var(--black-clr);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: var(--fw-n) !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none !important;
+  color: var(--black-clr);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Container {
+  padding: 0 15rem;
+}

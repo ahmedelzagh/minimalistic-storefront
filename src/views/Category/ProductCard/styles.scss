@@ -1,0 +1,43 @@
+a {
+  .card {
+    display: grid;
+    position: relative;
+    transition: 0.4s;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    &:hover {
+      box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+    }
+    &.no-stock {
+      opacity: 0.5;
+      &::before {
+        content: "OUT OF STOCK";
+        font-size: 2.4rem;
+        font-weight: var(--fw-m);
+        position: absolute;
+        top: 19rem;
+        left: 11.04rem;
+      }
+    }
+
+    .card-img {
+      max-width: 355px;
+      max-height: 330px;
+      object-fit: contain;
+    }
+
+    .container {
+      h4 {
+        font-size: 1.8rem;
+        font-weight: var(--fw-n) !important;
+      }
+      p {
+        font-weight: var(--fw-price) !important;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
