@@ -10,7 +10,7 @@ Scandiweb Junior Developer test assignment
 
 ## Live Link🔗:
 
-<**minimalistic-store.aelzagh.com**>
+**http://minimalistic-store.aelzagh.com/**
 
 ---
 
@@ -46,6 +46,6 @@ Scandiweb Junior Developer test assignment
 
 ## Credits📝:
 
-- Design & Idea: **Scandiweb** <scandiweb.com>
+- Design & Idea: [**Scandiweb**](scandiweb.com)
 
 ---
