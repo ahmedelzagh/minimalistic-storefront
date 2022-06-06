@@ -1,25 +1,25 @@
 .shopping-cart-items {
   display: grid;
-  grid-template-columns: auto;
-  .item {
-    padding: 5rem;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: auto auto;
-    .item-info {
-      .item-brand {
-        font-size: 3rem;
-        font-weight: var(--fw-b);
-        margin-bottom: 1.6rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  .item{
+    .item-info{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .product-img {
+        width: 140px;
       }
-      .item-name {
-        font-size: 3rem;
-        font-weight: var(--fw-m);
-        margin-bottom: 4rem;
-      }
-      .cost {
-        font-weight: var(--fw-vb);
-        font-size: 2.4rem;
+    }
+    .item-attributes{
+      .attribute-items-list{
+        .attribute-item {
+
+          &.selected{
+            color: #ffc107;
+          }
+        }
       }
     }
   }

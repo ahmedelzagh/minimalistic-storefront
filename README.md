@@ -40,10 +40,6 @@ Scandiweb Junior Developer test assignment
 
 ---
 
-## Status📶:
-
----
-
 ## Credits📝:
 
 - Design & Idea: [**Scandiweb**](https://scandiweb.com/)

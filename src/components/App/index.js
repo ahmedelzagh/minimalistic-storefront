@@ -44,7 +44,7 @@ class App extends Component {
         cart:
           cartItems.map(
             item => item.id === productData.id
-            ? {...item, quantity: item.quantity + 1, attributes: selectedAttributes}
+            ? {...item, quantity: item.quantity + 1, selectedAttributes: selectedAttributes}
             : item
             )
 
@@ -58,6 +58,7 @@ class App extends Component {
             product_name: productData.name,
             brand: productData.brand,
             quantity: 1,
+            preview: productData.gallery[0],
             selectedAttributes: selectedAttributes,
             attributes: productData.attributes,
             price: productData.prices
