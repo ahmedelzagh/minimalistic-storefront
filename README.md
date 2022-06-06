@@ -41,7 +41,9 @@ Scandiweb Junior Developer test assignment
 ---
 
 ## Status📶:
+
 Uncompleted for now (6/6/2022)
+
 ---
 
 ## Credits📝:
