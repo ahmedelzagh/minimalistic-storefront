@@ -10,7 +10,7 @@ Scandiweb Junior Developer test assignment
 
 ## Live Link🔗:
 
-**http://minimalistic-store.aelzagh.com/**
+**http://minimalistic-store.aelzagh.com/** (uncompleted)
 
 ---
 
@@ -38,6 +38,10 @@ Scandiweb Junior Developer test assignment
 
 ## Approach🚶:
 
+---
+
+## Status📶:
+Uncompleted for now (6/6/2022)
 ---
 
 ## Credits📝:
